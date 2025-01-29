@@ -8,7 +8,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 que = {}
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
+SESSION_NAME = getenv("SESSION_NAME", "Rebel")
 BOT_TOKEN = getenv("7511275979:AAEwLcIrSW6F-d5t3FEmUiy46l4ag2D8J90")
 BOT_NAME = getenv("BOT_NAME", "ᴍᴜsɪᴄ ʙᴏᴛ")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/6790864f5fe27471bdc8d.png")
